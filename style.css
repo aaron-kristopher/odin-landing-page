@@ -67,3 +67,71 @@ header > .nav-link > ul > li {
   padding: 0.5rem 2.25rem;
   border-radius: 0.625rem;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem 10rem 6rem;
+}
+
+.content > h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.content > .services {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.content > .services > .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 11rem;
+}
+
+.content > .services > .card > .service-info {
+  text-align: center;
+}
+
+.content > .services > .card > .img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 0.275rem solid #1f2937;
+  border-radius: 0.75rem;
+  padding: 1rem 0.5rem;
+}
+
+.content > .services > .card > .service-info > h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  padding: 8rem 18rem;
+}
+
+.quote > blockquote {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  align-self: flex-end;
+  margin-top: 1.125rem;
+}
