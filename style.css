@@ -1,1 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
 
+header {
+  color: #f9faf8;
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.75rem 8rem;
+}
+
+header > .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header > .nav-link > ul {
+  display: flex;
+  list-style: none;
+}
+
+header > .nav-link > ul > li {
+  color: #e5e7eb;
+  font-size: 1.125rem;
+  margin-left: 2rem;
+}
