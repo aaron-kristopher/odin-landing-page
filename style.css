@@ -29,3 +29,41 @@ header > .nav-link > ul > li {
   font-size: 1.125rem;
   margin-left: 2rem;
 }
+
+.hero {
+  color: #f9faf8;
+  background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem;
+  padding: 4rem 8rem 8rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-content > h1 {
+  font-size: 3rem;
+  font-weight: extra-bold;
+}
+
+.hero-content > p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+.hero-content > button {
+  align-self: flex-start;
+  background: #3882f6;
+  border: none;
+  color: #f9faf8;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding: 0.5rem 2.25rem;
+  border-radius: 0.625rem;
+}
